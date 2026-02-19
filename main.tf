@@ -32,9 +32,7 @@ resource "google_compute_instance" "web" {
    access_config {
       # Leave empty for dynamic public IP
     }
-  }  
-
-}
+  }
 
 allow_stopping_for_update = true
 }
