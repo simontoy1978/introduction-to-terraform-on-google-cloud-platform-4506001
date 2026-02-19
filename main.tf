@@ -1,4 +1,4 @@
-resource "google_compute_network" "App" {
+resource "google_compute_network" "app" {
 name        = "app"
 auto_create_subnetworks = false
 }
