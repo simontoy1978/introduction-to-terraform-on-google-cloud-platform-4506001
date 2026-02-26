@@ -1,5 +1,5 @@
 resource "google_compute_network" "app" {
-name        = "var.network_name"
+name        = var.network_name
 auto_create_subnetworks = false
 }
 
