@@ -32,3 +32,8 @@ variable "machine_type" {
 type = string
 default = "e2-micro"
 }
+
+variable "app_name" {
+type = string
+default = "blog"
+}
