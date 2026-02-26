@@ -32,20 +32,3 @@ variable "machine_type" {
 type = string
 default = "e2-micro"
 }
-
-  
-  boot_disk {
-    initialize_params {
-      image = data.google_compute_image.ubuntu.self_link
-    }
-  }
-  network_interface {
-   subnetwork = "app"
-   access_config {
-      # Leave empty for dynamic public IP
-    }
-  }
-
-allow_stopping_for_update = true
-}
-
