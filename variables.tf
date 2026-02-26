@@ -23,7 +23,7 @@ type = string
 default = "ubuntu-os-cloud"
 }
 
-variable "image_image" {
+variable "image_family" {
 type = string
 default = "ubuntu-2204-lts"
 }
@@ -37,3 +37,4 @@ variable "app_name" {
 type = string
 default = "blog"
 }
+
