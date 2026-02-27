@@ -35,6 +35,7 @@ default = "e2-micro"
 
 variable "app_name" {
 type = string
-default = "blog"
+default = "jordan"
 }
+
 
